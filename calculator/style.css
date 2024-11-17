@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gainsboro;
+    padding-top: 10%;
+}
+.mini-container{
+    background-color: mintcream;
+    width: 25%;
+    min-height: 40%;
+    padding: 30px;
+    border-radius: 10px 10px 150px 10px;
+    }
+    .btn{
+        display: flex;
+        
+    }
+    .btn input{
+        width: 100px;
+        height: 50px;
+        margin: 5px ;
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+        font-size: 40px;
+        font-weight: bold;
+
+    }
+    .btn label{
+        margin: 0;
+        display: block;
+        margin-left: 5px;
+
+      
+    }
+    .line{
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .line div{
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
+        background-color: purple;
+        position: relative;
+        top: -25px;
+        left: 80%;
+    }
+    .date{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       margin-top: 30px;
+
+        
+        
+}
+    .date h1{
+        line-height: 24px;
+        letter-spacing: 10px;
+        display: flex;
+    }
+    .date span{
+        color: purple;
+    }
+
